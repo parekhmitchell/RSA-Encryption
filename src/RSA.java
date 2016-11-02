@@ -7,8 +7,10 @@ public class RSA {
     private int[] values;
     private int p;
     private int q;
-    private int n;
     private int z;
+
+    //servers public keys
+    private int n;
     private int k;
 
     //constructor that user will pass p and q to
