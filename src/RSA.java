@@ -40,6 +40,18 @@ public class RSA {
         this(3, 11);
     }
 
+    //encrypt(int input) returns the original message encrypted
+    //overloaded method with int input
+    public int encrypt(int input) {
+        return input;
+    }
+
+    //encrypt(String input) returns the original message encrypted
+    //overloaded method with String input
+    public String encrypt(String input) {
+        return input;
+    }
+
     //pickK() will pick a prime number k, such that
     //k is co-prime to z, i.e, z is not divisible by k
     private int pickK() {

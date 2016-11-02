@@ -6,6 +6,8 @@
 public class RSARunner {
     public static void main(String[] args) {
         RSA rsa = new RSA();
+        int enc1 = rsa.encrypt(15);
+        String enc2 = rsa.encrypt("input");
     }
 
 }
