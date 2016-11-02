@@ -9,18 +9,28 @@ public class RSA {
     private int q;
     private int z;
 
-    //servers public keys
+    //server's public keys
     private int n;
     private int k;
 
+    //private key
+    private int j;
+
     //constructor that user will pass p and q to
     //note, p and q must both be prime
-    public RSA(int p, int q) {
+    public RSA(int p, int q) throws IllegalArgumentException {
         this.p = p;
         this.q = q;
         this.n = this.p*this.q;
         this.z = (this.p - 1) * (this.q - 1);
         this.k = pickK();
+        this.j = pickJ();
+
+        //error checking
+        //values = {this.p, this.q, n, z, k, j};
+        //for(int i : values)
+        //    if(i == -1)
+        //        throw new IllegalAccessException("Initial parameters incorrect");
     }
 
     //default constructor that will populate
@@ -44,7 +54,7 @@ public class RSA {
                     flag = false;
 
             if(k == z)
-                return k;
+                return -1;
         }
         return k;
     }
@@ -66,6 +76,18 @@ public class RSA {
             return false;
 
         return true;
+    }
+
+    //pickJ() will pick a number j such that
+    //(k * j) mod z = 1
+    private int pickJ() {
+        //loop z times, as we are sure that j will be less than z
+        for(int j = 1; j < z + 1; j++) {
+            if((k * j) % z == 1)
+                return j;
+        }
+        //if we reach this we have failed
+        return -1;
     }
 
 }
