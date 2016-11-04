@@ -7,9 +7,9 @@ public class RSARunner {
     public static void main(String[] args) {
         RSA rsa = new RSA();
         int enc1 = rsa.encrypt(6);
-        int[] enc2 = rsa.encrypt("input");
-        System.out.println(enc1);
-        System.out.println(rsa.decrypt(enc1));
+        int[] enc2 = rsa.encrypt("a");
+        System.out.println(enc2.toString());
+        System.out.println(rsa.decrypt(enc2));
     }
 
 }
