@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db543244-0401-44fc-97eb-ef3b689cc5ef" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RSARunner.java" afterPath="$PROJECT_DIR$/src/RSARunner.java" />
-    </list>
+    <list default="true" id="db543244-0401-44fc-97eb-ef3b689cc5ef" name="Default" comment="" />
     <ignored path="RSA-Encryption.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,8 +34,8 @@
       <file leaf-file-name="RSA.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/RSA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            <state relative-caret-position="275">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
               <folding>
                 <element signature="method#RSA#0;class#RSA#0" expanded="false" />
                 <element signature="method#RSA#1;class#RSA#0" expanded="false" />
@@ -107,7 +104,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -143,6 +139,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -150,6 +147,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Project-Euler" />
   </component>
   <component name="RunManager" selected="Application.RSARunner">
     <configuration default="false" name="RSARunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -487,6 +485,29 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/RSARunner.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RSA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#RSA#0;class#RSA#0" expanded="false" />
+            <element signature="method#RSA#1;class#RSA#0" expanded="false" />
+            <element signature="method#toString#0;class#RSA#0" expanded="false" />
+            <element signature="method#pickK#0;class#RSA#0" expanded="false" />
+            <element signature="method#isValidPrime#0;class#RSA#0" expanded="false" />
+            <element signature="method#pickJ#0;class#RSA#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RSARunner.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -525,8 +546,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RSA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        <state relative-caret-position="275">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding>
             <element signature="method#RSA#0;class#RSA#0" expanded="false" />
             <element signature="method#RSA#1;class#RSA#0" expanded="false" />
